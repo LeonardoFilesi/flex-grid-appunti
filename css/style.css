@@ -1,0 +1,14 @@
+/*RESET*/
+* {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /*DEBUG*/
+    height: 900px;
+    background-color: beige;
+    /*DEBUG*/
+}
