@@ -10,11 +10,17 @@
 header {
     height: 70px;
     background-color: rgb(48, 80, 60);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
 }
 
+
+/*MAIN*/
 .header-nav ul {
     display: flex;
     list-style-type: none;
+    gap: 10px;
 }
 
 .container {
@@ -29,3 +35,5 @@ nav {
     background-color: rgb(116, 40, 50);
     width: var(--sidebar-width);
 }
+
+/*MAIN*/
