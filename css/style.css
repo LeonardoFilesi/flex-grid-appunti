@@ -1,14 +1,31 @@
 /*RESET*/
 * {
-    background-color: aquamarine;
+    background-color: rgb(62, 128, 182);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*HEADER*/
+header {
+    height: 70px;
+    background-color: rgb(48, 80, 60);
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
 .container {
     /*DEBUG*/
-    height: 900px;
-    background-color: beige;
+    min-height: 300px;
+    background-color: rgb(212, 181, 140);
     /*DEBUG*/
+    display: flex;
+}
+
+nav {
+    background-color: rgb(116, 40, 50);
+    width: var(--sidebar-width);
 }
